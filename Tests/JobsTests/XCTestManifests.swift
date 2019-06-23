@@ -73,7 +73,7 @@ extension RecurrenceRuleTests {
     // to regenerate.
     static let __allTests__RecurrenceRuleTests = [
         ("testLastDayOfMonth", testLastDayOfMonth),
-        ("testLastDayOfMonthSimples", testLastDayOfMonthSimples),
+        ("testLastDayOfMonthSimple", testLastDayOfMonthSimple),
         ("testNextDateWhere", testNextDateWhere),
         ("testNextDateWhereSimple", testNextDateWhereSimple),
         ("testReccurrenceRuleEvaluationSimple", testReccurrenceRuleEvaluationSimple),

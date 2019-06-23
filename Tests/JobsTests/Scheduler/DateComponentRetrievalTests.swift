@@ -168,15 +168,4 @@ final class DateComponentRetrievalTests: XCTestCase {
         XCTAssertEqual(13, jan202019UTC.hour(atTimeZone: timeZoneUTC))
         XCTAssertEqual(8, jan202019UTC.hour(atTimeZone: timeZoneEST))
     }
-
-    static var allTests = [
-        ("testCalendarIdentifier", testCalendarIdentifier),
-        ("testDateComponentRetrival", testDateComponentRetrival),
-        ("testDayOfWeek", testDayOfWeek),
-        ("testWeekOfMonth", testWeekOfMonth),
-        ("testWeekOfYear", testWeekOfYear),
-        ("testWeeksInYear", testWeeksInYear),
-        ("testQuarters", testQuarters),
-        ("testTimeZone", testTimeZone)
-    ]
 }

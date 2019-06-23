@@ -255,18 +255,4 @@ final class RecurrenceRuleTests: XCTestCase {
         XCTAssertEqual(try reccurrenceRule.resolveNextDateThatSatisfiesRule(date: date2), date3)
     }
 
-    static var allTests = [
-        ("testReccurrenceRuleEvaluationSimple", testReccurrenceRuleEvaluationSimple),
-        ("testReccurrenceRuleEvaluationStepSimple", testReccurrenceRuleEvaluationStepSimple),
-        ("testReccurrenceRuleEvaluationStepNotDivisible", testReccurrenceRuleEvaluationStepNotDivisible),
-        ("testReccurrenceRuleEvaluationTimezone", testReccurrenceRuleEvaluationTimezone),
-        ("testNextDateWhereSimple", testNextDateWhereSimple),
-        ("testNextDateWhere", testNextDateWhere),
-        ("testResolveNextDateThatSatisfiesRule", testResolveNextDateThatSatisfiesRule),
-        ("testResolveNextDateThatSatisfiesRuleLeapYear", testResolveNextDateThatSatisfiesRuleLeapYear),
-        ("testResolveNextDateThatSatisfiesRuleImpossible", testResolveNextDateThatSatisfiesRuleLeapYear),
-        ("testLastDayOfMonthSimple", testLastDayOfMonthSimple),
-        ("testLastDayOfMonth", testLastDayOfMonth)
-    ]
-
 }
